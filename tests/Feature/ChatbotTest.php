@@ -28,7 +28,7 @@ class ChatbotTest extends TestCase
         parent::setUp();
 
         config([
-            'larachat.openai.api_key' => 'sk-test',
+            'larachat.openai.api_key' => 'clave-de-mentira',
             'larachat.knowledge.json.path' => storage_path('framework/testing/larachat-index.php'),
         ]);
     }
